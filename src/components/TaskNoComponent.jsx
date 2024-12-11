@@ -7,7 +7,7 @@ function taskNoComponent() {
     const taskNoComponent = tasks.filter((task) => task.state == "completed").map((element) => {
         return (
             <li key={element.id}>
-                <h3>{element.title}</h3>
+                <h3>{element.title}<span className='button'>{element.state}</span></h3>
                 <p>Priority: {element.priority}</p>
                 <p>Estimated Time: {element.estimatedTime} minutes</p>
             </li>

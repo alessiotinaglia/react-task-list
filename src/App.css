@@ -1,4 +1,10 @@
-#root {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,10 +45,50 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+/* titolo */
+header {
+  background-color: rgb(0, 255, 204);
+  height: 60px;
 }
 
-.bottone-rosso{
-  padding: 15px;
-  background-color: aqua;
-  border-radius: 15px;
+/* tag h */
+h1 {
+  padding: 10px 15px;
+}
+
+h2 {
+  padding: 10px 15px;
+  font-size: 1.8em;
+}
+
+p, h3 {
+  padding: 3px;
+}
+
+/* lista */
+li {
+  padding: 5px 15px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* bottone  */
+.button{
+  padding: 8px;
+  background-color: rgb(255, 145, 0);
+  border-radius: 10px;
+  margin-left: 15px;
+  color: white;
+}
+
+hr{
+  border: 1px solid grey;
+  width: 98%;
+  margin-left: 15px;
+  margin-top: 15px;
 }

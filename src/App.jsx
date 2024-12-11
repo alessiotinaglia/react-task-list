@@ -13,22 +13,21 @@ function App() {
   // parte html
   return (
     <>
+      {/* titolo */}
       <header><h1>{title}</h1></header>
       {/* prima sezione */}
-      <div><h2>{taskComponent}</h2>
-        <ul>
-          <TaskComponent />
-        </ul>
-      </div>
+        <div><h2>{taskComponent}</h2>
+        <ul><TaskComponent /></ul>
+        </div>
+        {/* linea grigia */}
+      <hr />
       {/* seconda sezione */}
       <div><h2>{taskNoComponent}</h2>
-        <ul>
-          <TaskNoComponent />
-        </ul>
+        <ul><TaskNoComponent /></ul>
       </div>
-      <bh />
 
-      <span className='bottone-rosso'>hjghj</span>
+
+
 
     </>
   );
