@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.bottone-rosso{
+  padding: 15px;
+  background-color: aqua;
+  border-radius: 15px;
+}
